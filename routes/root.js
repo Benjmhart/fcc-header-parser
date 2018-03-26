@@ -10,7 +10,7 @@ const getHeaders = req => {
     return { 
         language, 
         ip, 
-        testip: req.ip.split(':')
+        testip: req.ip.split(':'),
         software 
     }
 }
